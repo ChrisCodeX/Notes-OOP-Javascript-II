@@ -12,3 +12,6 @@ const obj1 = {
 
 // Object to String
 const stringfiedComplexObject = JSON.stringify(obj1);
+
+// String to object
+const obj2 = JSON.parse(stringfiedComplexObject)
