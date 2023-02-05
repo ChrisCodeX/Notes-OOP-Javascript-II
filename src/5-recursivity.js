@@ -6,3 +6,10 @@ function recursiva(numero) {
   return recursiva(numero + 1);
 }
 
+// Equivalencia con el ciclo while
+let num = 0
+
+while(num < 5) {
+  console.log(num);
+  num++
+}
