@@ -15,3 +15,5 @@ const stringfiedComplexObject = JSON.stringify(obj1);
 
 // String to object
 const obj2 = JSON.parse(stringfiedComplexObject)
+
+// El obj2 fue copiado y es autonomo, pero no funciona con funciones
