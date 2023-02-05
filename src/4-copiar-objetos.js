@@ -9,3 +9,6 @@ const obj1 = {
     this.a = 'AAAAAA'
   }
 };
+
+// Object to String
+const stringfiedComplexObject = JSON.stringify(obj1);
