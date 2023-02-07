@@ -5,6 +5,8 @@ function requiredParam(param) {
 // Object Factory
 function createStudent({
   name = requiredParam('name'),
+  age,
+  email = requiredParam('email'),
 } = {}) {
 }
 
