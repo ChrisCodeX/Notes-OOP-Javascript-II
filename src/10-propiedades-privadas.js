@@ -13,6 +13,9 @@ function createStudent({
   approvedCourses = [],
   learningPaths = [],
 } = {}) {
+  const private = {
+    _name: name,
+  };
 }
 
 // Declaración del objeto
