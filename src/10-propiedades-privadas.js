@@ -7,6 +7,9 @@ function createStudent({
   name = requiredParam('name'),
   age,
   email = requiredParam('email'),
+  twitter,
+  instagram,
+  facebook,
 } = {}) {
 }
 
