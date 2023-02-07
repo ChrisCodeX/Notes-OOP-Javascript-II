@@ -26,6 +26,12 @@ function createStudent({
       instagram,
       facebook,
     },
+    readName() {
+      return private._name;
+    },
+    changeName(newName) {
+      private._name = newName;
+    },
   };
 }
 
