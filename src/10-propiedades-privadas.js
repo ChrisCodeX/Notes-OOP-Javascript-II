@@ -16,6 +16,17 @@ function createStudent({
   const private = {
     _name: name,
   };
+  const public = {
+    email,
+    age,
+    approvedCourses,
+    learningPaths,
+    socialMedia: {
+      twitter,
+      instagram,
+      facebook,
+    },
+  };
 }
 
 // Declaración del objeto
