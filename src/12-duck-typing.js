@@ -40,6 +40,7 @@ function createStudent({
   email = requiredParam('email'),
   twitter,
   instagram,
+  facebook,
 } = {}) {
 }
 
