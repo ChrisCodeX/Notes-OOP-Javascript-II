@@ -42,6 +42,7 @@ function createStudent({
   instagram,
   facebook,
   approvedCourses = [],
+  learningPaths = []
 } = {}) {
 }
 
