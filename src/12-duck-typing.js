@@ -32,6 +32,13 @@ function createLearningPath({
 
   return public
 }
+
+// Object Factory
+function createStudent({
+  name = requiredParam('name'),
+} = {}) {
+}
+
 // Declaración del objeto
 const chris = createStudent({
   name: 'Christian',
