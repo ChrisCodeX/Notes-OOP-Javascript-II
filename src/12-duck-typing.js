@@ -41,6 +41,7 @@ function createStudent({
   twitter,
   instagram,
   facebook,
+  approvedCourses = [],
 } = {}) {
 }
 
