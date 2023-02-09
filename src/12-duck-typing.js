@@ -36,6 +36,7 @@ function createLearningPath({
 // Object Factory
 function createStudent({
   name = requiredParam('name'),
+  age,
 } = {}) {
 }
 
